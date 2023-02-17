@@ -1,0 +1,38 @@
+/*common css start*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*common css start*/
+.container >a{
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.container .close{
+    font-size: 70px;
+    color: #7f00ff;
+}
+#navbarNav ul li>a{
+    font-family: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+#navbarNav .nav-item a:hover,
+.icon a:hover{
+    color: #7f00ff;
+    transition: .6sec;
+}
+.icon a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+#banner{
+    background-image:url(../image/background2.png);
+    height: 100%;
+    width: 100%;
+}
